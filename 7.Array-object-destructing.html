@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Array object destruction</title>
+    </head>
+
+    <body>
+
+        <script type="text/javascript">
+            const details={
+                name:"Saurabh",
+                contact:"9309941364",
+                email:"saurabh.kale511gmail.com"
+            };
+            let{name:name,contact,email}=details;
+            console.log(name);
+            console.log(contact);
+            console.log(email);
+            
+            const arr=["A","B","C","D","E"]
+            let[v1,v2,v3,v4,v5]=arr;
+            console.log(v1);
+            console.log(v2);
+            console.log(v3);
+            console.log(v4);
+            console.log(v5);
+            
+        </script>
+    </body>
+</html>
